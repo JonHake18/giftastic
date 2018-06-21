@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>NFL Players</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC|Nunito+Sans" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="display-4" style="font: white;">Giftastic!</h1>
+                <p class="lead" style="font: white;">Click the add player button in order to make a button for your desired player!</p>
+            </div>
+        </div>
+        <div class="row" id="addButton">
+            <div class="col-md-2">
+                <button type="button" class="btn btn-secondary playerButton" player="Aaron Rodgers football">Aaron Rodgers</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-11">
+                <form>
+                    <input class="form-control" id="playerField" placeholder="Player Name">
+                </form>
+            </div>
+            <div class="col-md-1">
+                <button type="button" class="btn btn-secondary" id="addPlayer">Add Player</button>
+            </div>
+        </div>
+        <div class="row" id="gifs-appear-here">
+
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/logic.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+body {
+    background-image: url(../images/nfl.jpg);
+    background-size: 100%;
+    color: white;
+    font-family: 'IM Fell English SC', serif;
+}
+
+.jumbotron { 
+    background-color: #1b2d43;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+}
